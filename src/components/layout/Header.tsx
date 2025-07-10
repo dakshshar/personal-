@@ -46,8 +46,7 @@ const Header: React.FC = () => {
   const textClasses = cn(
     'transition-colors duration-300',
     {
-      'text-white': !isScrolled && isHomePage,
-      'text-white': isScrolled || !isHomePage
+      'text-white': true
     }
   );
 
